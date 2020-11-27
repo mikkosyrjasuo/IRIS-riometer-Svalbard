@@ -1,0 +1,13 @@
+{signal: [
+  {name: 'signal', wave: 'h.LHLHLHLH.|.LHLH.',phase:0.25},
+  {name: 'bit', wave: 'x========x|x====x.', data:["0","1","0","1","0","1","0","1","0","1","0","1"]},
+  {name: 'clk', wave: 'p.........|.......'},
+  {name: 'data',wave: 'x5.......x|x4...x.',data:["Preamble","Postamble"]},
+],
+  head:{
+  text:"IRIS signal phase coding",
+  tick:0,
+  },
+  foot:{
+  tick:0}
+  }
