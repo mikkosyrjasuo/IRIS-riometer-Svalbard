@@ -14,4 +14,4 @@ We gratefully acknowledge the help of Peter Stauning, who retired from the DMI a
 
 The antennas are located about 650m from the old Nordlysstasjon in Adventdalen. In the middle of the antenna array, there is a small enclosure with RF and interface electronics. A 5-conductor main cable provides power from the station as well as carries the measured signals to the PC. The riometer essentially produces an 8x8 "picture" and the data is transferred to via a single conductor using phase encoding.
 
-See the wiki for details.
+See the [wiki](https://github.com/mikkosyrjasuo/IRIS-riometer-Svalbard/wiki) for details.
