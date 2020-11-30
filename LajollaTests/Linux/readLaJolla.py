@@ -30,7 +30,11 @@ while 1:
     if ser.in_waiting>0:
     #    mytimestamp = time.time()
         line = ser.readline().decode('utf-8').rstrip()
-        voltage=int(line)
+        
+        # The voltage is a 10-bit ADC-conversion value (0..5V)
+        # converted to mV
+        voltage=round(int(line)/1024.0*5*1000)
+        
         with open(filename,"a") as of:
             of.write(str(round(mytimestamp))+" "+ str(voltage) + " 0\n")
         print(round(mytimestamp), voltage, 0, "->", filename)
