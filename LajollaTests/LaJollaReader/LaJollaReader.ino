@@ -32,9 +32,9 @@ uint16_t readAnalogSensor(int pin)
   uint32_t value = 0;
   for (uint8_t i = 0; i < 16; i++) {
     value += analogRead(pin);
-    value = value >> 4; // Divide by 2^4=16
-    return (uint16_t)value;
   }
+  value = value >> 4; // Divide by 2^4=16
+  return (uint16_t)value;
 }
 
 void setup() {
