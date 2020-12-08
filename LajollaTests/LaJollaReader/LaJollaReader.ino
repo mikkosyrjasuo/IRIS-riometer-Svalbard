@@ -9,7 +9,7 @@
 // power supply line: an external reference would improve the situation. For quick functionality tests, 
 // however, these enhancements are not at all critical.
 
-// The input pin protection comprises a simple RC-lowpass filter (3k3 and 100nF -> f0=500Hz)
+// The input pin protection comprises a simple RC-lowpass filter (33k and 100nF -> f0=50Hz)
 // followed by clamp diodes to +5V and GND.
 
 
